@@ -1,0 +1,23 @@
+<package>
+  <description brief="people_msgs">
+
+     people_msgs defines the messages useful for
+     being aware of the users around the robot.
+
+  </description>
+  <author>Arnaud Ramey (arnaud.a.ramey@gmail.com)
+                -- Robotics Lab, University Carlos III of Madrid</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/people_msgs</url>
+
+  <!-- messages -->
+  <depend package="geometry_msgs"/>
+  <depend package="visualization_msgs"/>
+  <depend package="sensor_msgs"/>
+
+
+
+</package>
+
+
