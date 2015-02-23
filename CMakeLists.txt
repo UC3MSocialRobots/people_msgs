@@ -49,6 +49,7 @@ find_package(catkin REQUIRED COMPONENTS roscpp message_generation std_msgs
 add_message_files(DIRECTORY msg
   FILES 
   PeoplePose.msg
+  PeoplePoseAttributes.msg
   PeoplePoseList.msg
 )
 

@@ -19,3 +19,10 @@ bool match_success
 # ie new_ppl.poses.size() x tracks.poses.size(),
 # the costs are obtained by costs[detected_pp_idx][track_idx]
 float64[] costs
+
+# the attributes to add to new_ppl, that were computed by the node
+# to be valid, the vector should be of size |new_ppl.poses|
+people_msgs/PeoplePoseAttributes[]  new_ppl_added_attributes
+# the attributes to add to tracks,  that were computed by the node
+# to be valid, the vector should be of size |tracks.poses|
+people_msgs/PeoplePoseAttributes[]   tracks_added_attributes

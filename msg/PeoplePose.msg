@@ -24,13 +24,13 @@ string person_name
 # the confidence (between 0=really unsure and 1=very sur)
 float32 confidence
 
-# the color mask of the user. 
+# the color mask of the user.
 # Most of the time, it does not correspond to the full RGB input image,
 # but a tight crop that only keeps the region of interest of that image.
 sensor_msgs/Image rgb
 # the depth mask of the user
 sensor_msgs/Image depth
-# the binary mask of the user. 
+# the binary mask of the user.
 # The image pixels are = 0 where the user is not, and >0 where he is
 # (that is, any point of her body).
 sensor_msgs/Image user
@@ -40,8 +40,5 @@ sensor_msgs/Image user
 int16 images_offsetx
 int16 images_offsety
 
-# a list of attributes of this person, for instance its height, its preferences...
-string[] attributes_names
-
-# the values of the attributes definited in attributes_names
-string[] attributes_values
+# the attributes
+people_msgs/PeoplePoseAttributes  attributes
