@@ -6,7 +6,7 @@ project(people_msgs)
 find_package(catkin REQUIRED COMPONENTS roscpp message_generation std_msgs
                     sensor_msgs geometry_msgs visualization_msgs)
 ### 4 - Message/Service/Action Generators (add_message_files(), add_service_files(), add_action_files())
-add_message_files(DIRECTORY msg
+add_message_files(
   FILES
   PeoplePose.msg
   PeoplePoseAttributes.msg
