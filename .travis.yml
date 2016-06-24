@@ -1,7 +1,9 @@
 # travis rules for people_msgs
 language: cpp
 # use Ubuntu 14.04, compatible with Indigo - check https://docs.travis-ci.com/user/ci-environment/
+sudo: required
 dist: trusty
+
 compiler:
   - gcc
 
