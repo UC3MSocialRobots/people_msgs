@@ -1,5 +1,7 @@
 # `people_msgs`
 
+[![Build Status](https://travis-ci.org/UC3MSocialRobots/people_msgs.svg)](https://travis-ci.org/UC3MSocialRobots/people_msgs)
+
 ![foo](doc/divulgacion.png)
 
 User detection, recognition and tracking is at the heart of Human Robot
