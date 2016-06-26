@@ -16,3 +16,14 @@ modular, expandable and fast architecture. This results in a local user
 mapping thanks to multi-modal fusion.
 
 This package contains the definition of the messages and services.
+
+How to install
+==============
+
+Dependencies: please run the ```rosdep``` utility:
+
+```bash
+$ sudo apt-get install python-rosdep
+$ sudo rosdep init
+$ rosdep install people_msgs --ignore-src
+```
