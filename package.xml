@@ -10,11 +10,8 @@
   <license>TODO</license>
   <buildtool_depend>catkin</buildtool_depend>
   <depend>message_generation</depend>
-  <depend>message_runtime</depend>
-  <depend>std_msgs</depend>
-  <depend>geometry_msgs</depend>
   <depend>sensor_msgs</depend>
-  <depend>visualization_msgs</depend>
+  <depend>std_msgs</depend>
   <export>
     <cpp cflags="-I${prefix} -I${prefix}/build"
          lflags="-lim -L${prefix}/lib -Wl,-rpath,${prefix}/lib" />
