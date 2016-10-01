@@ -1,6 +1,6 @@
-# `people_msgs`
+# `people_msgs_rl`
 
-[![Build Status](https://travis-ci.org/UC3MSocialRobots/people_msgs.svg)](https://travis-ci.org/UC3MSocialRobots/people_msgs)
+[![Build Status](https://travis-ci.org/UC3MSocialRobots/people_msgs.svg)](https://travis-ci.org/UC3MSocialRobots/people_msgs_rl)
 
 ![foo](doc/divulgacion.png)
 
@@ -25,5 +25,5 @@ Dependencies: please run the ```rosdep``` utility:
 ```bash
 $ sudo apt-get install python-rosdep
 $ sudo rosdep init
-$ rosdep install people_msgs --ignore-src
+$ rosdep install people_msgs_rl --ignore-src
 ```

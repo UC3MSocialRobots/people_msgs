@@ -1,7 +1,7 @@
 ### 1 - Required CMake Version
 cmake_minimum_required(VERSION 2.8.3)
 ### 2- Package Name
-project(people_msgs)
+project(people_msgs_rl)
 ### 3 - Find other CMake/Catkin packages needed for build
 SET(ROSDEPS message_generation sensor_msgs std_msgs)
 

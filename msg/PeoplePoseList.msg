@@ -5,4 +5,4 @@ Header header
 string method
 
 # the list of found poses
-people_msgs/PeoplePose[] poses
+people_msgs_rl/PeoplePose[] poses

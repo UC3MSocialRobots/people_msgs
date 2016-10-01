@@ -3,9 +3,9 @@
 
 # the detected PeoplePoseList.
 # the method is accessible via new_ppl.method, ex: "face_recognition_eigen"
-people_msgs/PeoplePoseList new_ppl
+people_msgs_rl/PeoplePoseList new_ppl
 # the reference (known) PeoplePoseList
-people_msgs/PeoplePoseList tracks
+people_msgs_rl/PeoplePoseList tracks
 
 ---
 
@@ -22,7 +22,7 @@ float64[] costs
 
 # the attributes to add to new_ppl, that were computed by the node
 # to be valid, the vector should be of size |new_ppl.poses|
-people_msgs/PeoplePoseAttributes[]  new_ppl_added_attributes
+people_msgs_rl/PeoplePoseAttributes[]  new_ppl_added_attributes
 # the attributes to add to tracks,  that were computed by the node
 # to be valid, the vector should be of size |tracks.poses|
-people_msgs/PeoplePoseAttributes[]   tracks_added_attributes
+people_msgs_rl/PeoplePoseAttributes[]   tracks_added_attributes

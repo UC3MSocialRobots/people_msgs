@@ -41,4 +41,4 @@ int16 images_offsetx
 int16 images_offsety
 
 # the attributes
-people_msgs/PeoplePoseAttributes  attributes
+people_msgs_rl/PeoplePoseAttributes  attributes
