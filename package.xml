@@ -3,7 +3,7 @@
   <name>people_msgs_rl</name>
   <version>0.0.0</version>
   <description>
-    people_msgs_rl defines the messages useful for being aware of the
+    people_msgs defines the messages useful for being aware of the
     users around the robot.
   </description>
   <maintainer email="arnaud.a.ramey@gmail.com">Arnaud Ramey</maintainer>

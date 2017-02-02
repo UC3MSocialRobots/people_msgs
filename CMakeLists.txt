@@ -9,9 +9,9 @@ find_package(catkin REQUIRED COMPONENTS ${ROSDEPS})
 ### 4 - Message/Service/Action Generators (add_message_files(), add_service_files(), add_action_files())
 add_message_files(
   FILES
-  PeoplePose.msg
-  PeoplePoseAttributes.msg
-  PeoplePoseList.msg
+  Person.msg
+  PersonAttributes.msg
+  People.msg
 )
 add_service_files(
   FILES

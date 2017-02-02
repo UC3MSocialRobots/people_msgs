@@ -27,3 +27,10 @@ $ sudo apt-get install python-rosdep
 $ sudo rosdep init
 $ rosdep install people_msgs_rl --ignore-src
 ```
+
+Licence
+=======
+
+LGPL v3 (GNU Lesser General Public License version 3).
+See LICENCE.
+
